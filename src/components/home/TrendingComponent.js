@@ -25,7 +25,7 @@ export default function TrendingComponent() {
 
   return (
     <CardContent className={classes.root}>
-      <Typography variant="h6" component="h5" style={{ fontWeight: "600" }}>
+      <Typography variant="h6" component="h6" style={{ fontWeight: "600" }}>
         Tren untuk Anda
       </Typography>
       <List>

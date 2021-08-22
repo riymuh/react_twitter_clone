@@ -10,12 +10,11 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  paper: {
-    height: 140,
-    width: 100,
-  },
   control: {
     padding: theme.spacing(2),
+  },
+  sidebar: {
+    position: "relative",
   },
 }));
 
@@ -25,8 +24,8 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <Grid container className={classes.root} spacing={2}>
-          <Grid item xs={3}>
+        <Grid container className={classes.root} spacing={0}>
+          <Grid item xs={3} className={classes.sidebar}>
             <SidebarComponent />
           </Grid>
           <Grid item xs={9}>

@@ -15,7 +15,7 @@ export const SearchComponent = () => {
   return (
     <TextField
       id="outlined-basic"
-      label="Cari di Twitter"
+      placeholder="Cari di Twitter"
       variant="outlined"
       className={classes.search}
     />

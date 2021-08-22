@@ -9,13 +9,14 @@ import Grid from "@material-ui/core/Grid";
 import { SearchComponent } from "../../components/home/SearchComponent";
 import TrendingComponent from "../../components/home/TrendingComponent";
 import Typography from "@material-ui/core/Typography";
+import TweetComponent from "../../components/home/TweetComponent";
+import CreateTweetComponent from "../../components/home/CreateTweetComponent";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     borderRight: "1px solid #eeeeee",
     borderLeft: "1px solid #eeeeee",
     borderRadius: "0",
-    height: "100vh",
   },
   header: {
     fontWeight: "bold",
@@ -24,6 +25,9 @@ const useStyles = makeStyles((theme) => ({
   searchBar: {
     paddingLeft: "0",
     paddingRight: "0",
+  },
+  rightBar: {
+    position: "sticky",
   },
 }));
 
@@ -48,9 +52,14 @@ const HomeComponent = () => {
             }
             titleTypographyProps={{ variant: "h6" }}
           />
+          <CreateTweetComponent />
+          <TweetComponent />
+          <TweetComponent />
+          <TweetComponent />
+          <TweetComponent />
         </Card>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={4} className={classes.rightBar}>
         <Card elevation={0}>
           <CardActions className={classes.searchBar}>
             <SearchComponent />

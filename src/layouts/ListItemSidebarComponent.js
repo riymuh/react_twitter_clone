@@ -9,6 +9,7 @@ import BookmarkBorderOutlinedIcon from "@material-ui/icons/BookmarkBorderOutline
 import FormatListBulletedRoundedIcon from "@material-ui/icons/FormatListBulletedRounded";
 import PersonOutlineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
 import MoreHorizRoundedIcon from "@material-ui/icons/MoreHorizRounded";
+import LocalOfferOutlinedIcon from "@material-ui/icons/LocalOfferOutlined";
 
 const ListItemSidebarComponent = (props) => {
   const components = {
@@ -19,6 +20,7 @@ const ListItemSidebarComponent = (props) => {
     FormatListBulletedRoundedIcon: FormatListBulletedRoundedIcon,
     PersonOutlineOutlinedIcon: PersonOutlineOutlinedIcon,
     MoreHorizRoundedIcon: MoreHorizRoundedIcon,
+    LocalOfferOutlinedIcon: LocalOfferOutlinedIcon,
   };
 
   const TagName = components[props.item.icon];
