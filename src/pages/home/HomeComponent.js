@@ -17,10 +17,13 @@ const useStyles = makeStyles((theme) => ({
     borderRight: "1px solid #eeeeee",
     borderLeft: "1px solid #eeeeee",
     borderRadius: "0",
+    overflow: "visible!important",
   },
   header: {
     fontWeight: "bold",
     borderBottom: "1px solid #eeeeee",
+    position: "sticky",
+    top: 0 /* required */,
   },
   searchBar: {
     paddingLeft: "0",

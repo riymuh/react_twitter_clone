@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
   },
   sidebar: {
     position: "relative",
+    overflow: "hidden",
   },
 }));
 
