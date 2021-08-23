@@ -24,6 +24,8 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: "1px solid #eeeeee",
     position: "sticky",
     top: 0 /* required */,
+    zIndex: "99",
+    backgroundColor: "#fff",
   },
   searchBar: {
     paddingLeft: "0",

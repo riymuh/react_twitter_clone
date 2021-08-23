@@ -15,11 +15,11 @@ import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    position: "sticky",
-    top: "0",
     height: "100vh",
     minWidth: "300px",
     overflow: "visible!important",
+    position: "sticky",
+    top: "0",
   },
   avatar: {
     backgroundColor: red[500],
