@@ -69,9 +69,10 @@ const HomeComponent = () => {
       </Grid>
       <Grid item xs={4} className={classes.rightBar}>
         <Card elevation={0}>
-          <CardActions className={classes.searchBar}>
-            <SearchComponent />
-          </CardActions>
+          <CardHeader
+            className={classes.searchBar}
+            title={<SearchComponent />}
+          />
           <TrendingComponent />
         </Card>
       </Grid>
