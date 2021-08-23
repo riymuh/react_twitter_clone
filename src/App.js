@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import SidebarComponent from "./layouts/SidebarComponent";
 import HomeComponent from "./pages/home/HomeComponent";
+import ChatComponent from "./layouts/ChatComponent";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,9 +30,11 @@ function App() {
             <SidebarComponent />
           </Grid>
           <Grid item xs={9}>
+            {/* router is here */}
             <HomeComponent />
           </Grid>
         </Grid>
+        <ChatComponent />
       </Container>
     </div>
   );

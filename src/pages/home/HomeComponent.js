@@ -30,9 +30,12 @@ const useStyles = makeStyles((theme) => ({
   searchBar: {
     paddingLeft: "0",
     paddingRight: "0",
+    overflow: "visible!important",
   },
   rightBar: {
+    overflow: "visible!important",
     position: "sticky",
+    top: "0",
   },
 }));
 
