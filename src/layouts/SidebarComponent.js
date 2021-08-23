@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
   profile: {
     position: "absolute",
     bottom: "0",
+    width: "100%",
   },
 }));
 
